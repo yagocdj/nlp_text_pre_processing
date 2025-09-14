@@ -1,30 +1,36 @@
-# NLP - Text preprocessing
 
-This preprocessing pipeline was built based on the following paper: [Um Pipeline de Pré-Processamento de Dados Textuais em Português para Análise de Redes Sociais](https://sol.sbc.org.br/index.php/stil/article/download/31163/30966/).
+# NLP - Pré-processamento de Texto
 
-## Setup
+Este pipeline de pré-processamento foi construído com base no seguinte artigo: [Um Pipeline de Pré-Processamento de Dados Textuais em Português para Análise de Redes Sociais](https://sol.sbc.org.br/index.php/stil/article/download/31163/30966/).
 
-Prior to running the pipeline, **make sure your system has Python installed**. Then, download the corpus used through the following link: [https://zenodo.org/records/12761179](https://zenodo.org/records/12761179)
+Outras fontes de consulta:
+- [https://drive.google.com/file/d/1aQ4hQ_wyuaePL32rlrPpkuO7GiqwqGAC/view](https://drive.google.com/file/d/1aQ4hQ_wyuaePL32rlrPpkuO7GiqwqGAC/view)
+- [NLP for Beginners: Cleaning & Preprocessing Text Data](https://medium.com/data-science/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f)
+- [Ferramentas para Processamento de Linguagem Natural em Português](https://medium.com/turing-talks/ferramentas-para-processamento-de-linguagem-natural-em-portugu%C3%AAs-977c7f59c382)
 
-1. Create a python virtual environment:
+## Configuração
+
+Antes de executar o pipeline, **certifique-se de que o Python está instalado em seu sistema**. Em seguida, faça o download do corpus utilizado através do seguinte link: [https://zenodo.org/records/12761179](https://zenodo.org/records/12761179)
+
+1. Crie um ambiente virtual Python:
 ```bash
 python -m venv .venv
 ```
 
-2. Activate the previously created virtual environment:
-- In a bash terminal:
+2. Ative o ambiente virtual criado:
+- Em um terminal bash:
 ```bash
 source .venv/bin/activate
 ```
-- In a Powershell terminal:
+- Em um terminal Powershell:
 ```powershell
 .venv\bin\Activate.ps1
 ```
 
-3. Install the required Python packages:
+3. Instale os pacotes Python necessários:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Take the downloaded dataset and move it to a folder called `data/`. It must be at the root of this project.
+4. Pegue o dataset baixado e mova-o para uma pasta chamada `data/`. Ela deve estar na raiz deste projeto.
 
