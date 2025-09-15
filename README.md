@@ -7,6 +7,7 @@ Outras fontes de consulta:
 - [https://drive.google.com/file/d/1aQ4hQ_wyuaePL32rlrPpkuO7GiqwqGAC/view](https://drive.google.com/file/d/1aQ4hQ_wyuaePL32rlrPpkuO7GiqwqGAC/view)
 - [NLP for Beginners: Cleaning & Preprocessing Text Data](https://medium.com/data-science/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f)
 - [Ferramentas para Processamento de Linguagem Natural em Português](https://medium.com/turing-talks/ferramentas-para-processamento-de-linguagem-natural-em-portugu%C3%AAs-977c7f59c382)
+- [NLP para Iniciantes: Lematização](https://medium.com/@guilherme.davedovicz/nlp-para-iniciantes-lematiza%C3%A7%C3%A3o-d3f723fa9ee3)
 
 ## Configuração
 
