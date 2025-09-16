@@ -1,3 +1,6 @@
 pandas~=2.0.0
 numpy~=1.24.4
 enelvo>=0.0.15
+nltk>=3.8.2
+spacy~=3.7.4
+wordcloud>=1.9.4
