@@ -35,3 +35,5 @@ pip install -r requirements.txt
 
 4. Pegue o dataset baixado e mova-o para uma pasta chamada `data/`. Ela deve estar na raiz deste projeto.
 
+## Melhorias futuras
+- Utilizar um dicionário léxico para obter uma núvem de palavras mais significativa.
