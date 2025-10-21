@@ -2,11 +2,13 @@
 
 * O modelo identificou uma forte relação entre "depressão" e "ansiedade", com uma similaridade de 0.73. Isso reflete a frequência com que esses termos são discutidos juntos no corpus.
 * "Ansiedade" foi semanticamente ligada a "pânico", "social" (provavelmente ansiedade social), "ataques" (ataques de pânico) e "sudorese" (um sintoma físico).
-* "Depressão" foi ligada a "deprimido" (estado) e "tdm" (Transtorno Depressivo Maior).
+* "Depressão" foi ligada a "deprimido" (estado) e "tdm" (Transtorno Depressivo Maior) conforme o gráfico a seguir: 
+![grafico 1](g1.png)
 * "Suicídio" foi corretamente associado a verbos de ação como "matar" e "cometer", e a conceitos relacionados como "suicida" e "morte".
-* A relação entre "depressão" e "suicídio" (similaridade de 0.42) foi capturada como mais forte do que a entre "ansiedade" e "suicídio" (similaridade de 0.23).
-A analogia `psicólogo` + `saúde` identificou com sucesso o ecossistema de tratamento, retornando "mental" (saúde mental), "terapeuta", "psiquiatra", "terapia", "médico" e "ajuda".
-O modelo foi capaz de isolar conceitos. A operação `depressão` + `ansiedade` - `suicídio` removeu o contexto de desfecho extremo e retornou termos relacionados a diagnóstico e tipos de ansiedade, como "social", "pânico", "diagnosticado" e "ataques".
+* A relação entre "depressão" e "suicídio" (similaridade de 0.42) foi capturada como mais forte do que a entre "ansiedade" e "suicídio" (similaridade de 0.23) conforme o gráfico a seguir: 
+![grafico 2](g2.png)
+* A analogia `psicólogo` + `saúde` identificou com sucesso o ecossistema de tratamento, retornando "mental" (saúde mental), "terapeuta", "psiquiatra", "terapia", "médico" e "ajuda".
+* O modelo foi capaz de isolar conceitos. A operação `depressão` + `ansiedade` - `suicídio` removeu o contexto de desfecho extremo e retornou termos relacionados a diagnóstico e tipos de ansiedade, como "social", "pânico", "diagnosticado" e "ataques".
 
 ### b. Houve confusões semânticas? Qual a justificativa?
 
