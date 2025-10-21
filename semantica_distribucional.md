@@ -1,5 +1,3 @@
-Com base nas saídas de execução do notebook fornecido, aqui estão as respostas para as suas perguntas:
-
 ### a. Quais relações semânticas o modelo conseguiu capturar?
 
 * O modelo identificou uma forte relação entre "depressão" e "ansiedade", com uma similaridade de 0.73. Isso reflete a frequência com que esses termos são discutidos juntos no corpus.
